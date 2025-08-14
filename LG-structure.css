@@ -1,0 +1,359 @@
+/* Don't show some of the default stuff SpringShare includes on pages */
+.breadcrumb>.active,.s-lg-az-result-share, #s-lg-guide-header-search, .s-lg-gmeta, .s-lg-book-prop-isbn, .s-lg-book-prop-pubdate, .s-lg-guide-info-updated, .s-lg-guide-info-views 
+
+
+/* style the header */
+
+#gouldHeader {
+	padding:5px 20px 10px 0;
+}
+
+#gouldHeader h1 a {
+	padding-left:5px;
+}
+
+#gouldHeader h2 a {
+	float:right;
+	margin-top:5px;	
+}
+
+
+#bcBackground {
+	display:block;
+	height:40px;
+}
+#s-lib-bc {
+	margin-top:-45px;
+	padding-left:20px;
+}
+@media all and (max-width:600px) {
+	#gouldHeader {
+		padding-bottom:45px;
+	}
+	#gouldHeader h2 a {
+		position: absolute;
+		top:170px;
+		left:45px;
+	}
+}
+@media all and (max-width:595px) {
+	#gouldHeader {
+		padding-bottom:75px;
+	}
+	#gouldHeader h2 a {
+		position: absolute;
+		top:170px;
+		left:45px;
+	}
+}
+@media all and (max-width:350px) {
+	#gouldHeader {
+		padding-bottom:75px;
+	}
+	#gouldHeader h2 a {
+		position: absolute;
+		top:160px;
+		left:45px;
+	}
+}
+
+/* style the guide title area */
+
+#s-lg-guide-name {
+	padding-left:10px;
+	margin-top:25px !important;
+	margin-bottom: -10px !important;
+}
+
+#s-lg-guide-desc-container {
+	margin:10px 0 0 15px;
+}
+
+/* make the main content line up at the top with the side nave content */
+#s-lg-guide-main {
+	margin-top:-20px;
+}
+
+/* line up side nav with guide title and breadcrumbs*/
+#s-lg-guide-tabs .nav {
+	padding-left:10px;
+}
+/* adjust spacing between tabs and content */
+#s-lg-guide-tabs-title-bar {
+	margin-bottom:8px;
+}
+
+/* style box titles */
+.s-lib-box-title {
+	margin:20px 0 -10px -9px !important;
+}
+
+/* set defaults for lists */
+ul, ol {
+	margin: 6px 6px;
+}
+/*style the right-side column*/
+#s-lg-col-0 {
+	margin:15px 0 0 10px;
+}
+
+li:not(.ui-dialog) {
+	margin: 6px 0;
+}
+
+/* style link lists */
+.s-lg-link-list li, .s-lg-rss-list li, .s-lg-widget li, .s-lg-system-list  li, .s-lg-link-list-5 {
+	list-style-type: none; 
+	margin: 6px 0px 6px -25px !important;
+}
+/* style breadcrumbs */
+#s-lib-bc a {
+	padding-left:10px;
+}
+/* style headings */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	margin-top:20px;
+	margin-bottom: 0px;
+}
+h3, .h3, h4, .h4 {
+}
+h5, .h5, h6, .h6 {
+}
+/* style database and link lists */
+.s-lg-icons {
+	padding:0 0 0 20px;
+}
+.s-lg-icons img {
+	padding-right:10px;
+}
+.s-lg-az-result-badges{
+	margin-left:-20px;
+}
+.s-lg-az-result-badges .s-lg-icons img {
+	padding:0;
+	max-width:none;
+}
+.s-lg-database-desc {
+	margin-bottom: 16px;
+}
+.label-primary, .s-lg-az-result-badge-new {
+	border-radius: .33em;
+}
+
+
+/* set spacing between boxes */
+.s-lib-box, s-lib-profile-container {
+	padding: 0 15px !important;
+}
+
+/* style the librarian profile boxes */
+.s-lib-profile-image img {
+	box-shadow: none;
+}
+.s-lib-profile-name {
+	padding-left:5px;
+}
+
+/* style book lists */
+.s-lg-book-props {
+	margin-left:30px;
+}
+
+/* style the custom footer area */
+#customFooter {
+	padding:20px;
+}
+#s-lib-footer-public {
+
+}
+
+/* Style Subject Pages */
+.s-lg-db-panel-title {
+	padding-top:10px;
+}
+#s-lg-sb-guides {
+	margin-top: 10px;
+}
+#s-lg-sb-content-guides i {
+	display:none;
+}
+#s-lib-public-header-title, #s-lib-public-header-desc, .s-lg-db-panel-title, #s-lg-sb-content-guides h2, #s-lg-sb-content-databases h2, #s-lg-az-cols, #s-lg-az-search-bar {
+	padding-left:15px !important;
+}
+
+/* Style search widget */
+#s-lg-srch-input-q {
+	height:40px !important;
+}
+#s-lg-embedded-search-widget-1599073987729 .s-lg-form-control {
+	width:300px !important;
+	height:40px !important;
+}
+.btn-default {
+	margin-top:-5px !important;
+}
+/* left over from old styling - may be important, but unsure yet */
+.s-lg-tn {
+    margin-left: 0px;
+}
+
+#col-vendors {
+	padding-bottom: 15px;
+}
+/*Following generated from http://www.responsivegridsystem.com/calculator/ for responsive two-column styling within a box*/
+/* SECTIONS */ 
+.customSection {
+	clear: both; 
+	padding: 0px; 
+	margin: 0px; 
+} 
+
+/* COLUMN SETUP */ 
+.customCol { 
+	display: block; 
+	float:left; 
+	margin: 1% 0 1% 1.6%; 
+} 
+.customCol:first-child { 
+	margin-left: 0; 
+} 
+/* GROUPING */ 
+.customGroup:before, .group:after { 
+	content:&quot;&quot;; 
+	display:table; 
+} 
+.customGroup:after { 
+	clear:both;
+} 
+.customGroup { 
+	zoom:1; /* For IE 6/7 */ 
+} 
+/* GRID OF TWO */ 
+.customSpan_2_of_2 { 
+	width: 100%; 
+} 
+.customSpan_1_of_2 { 
+	width: 49.2%; 
+} 
+/*  GRID OF THREE  */
+.customSpan_3_of_3 { 
+	width: 100%; 
+}
+.customSpan_2_of_3 { 
+	width: 66.13%; 
+}
+.customSpan_1_of_3 { 
+	width: 32.26%; 
+}
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.customSpan_3_of_4 {
+	width: 74.6%;
+}
+.customSpan_2_of_4 {
+	width: 49.2%;
+}
+.customSpan_1_of_4 {
+	width: 23.8%;
+}
+
+/* GO FULL WIDTH AT LESS THAN 480 PIXELS */ 
+@media only screen and (max-width: 480px) { 
+	.customCol { 
+		margin: 1% 0 1% 0%; 
+	} 
+} 
+@media only screen and (max-width: 480px) { 
+	.customSpan_2_of_2, .customSpan_1_of_2 { 
+		width: 100%; 
+	} 
+	.customSpan_3_of_3, .customSpan_2_of_3, .customSpan_1_of_3 { 
+		width: 100%; 
+	}
+	.customSpan_1_of_4, .customSpan_2_of_4, .customSpan_3_of_4, .customSpan_4_of_4 { 
+		width: 100%; 
+	}
+}
+/*End of responsive column styling*/
+
+/* styling LibCal buttons for profiles */
+.customButton, .customButton a {
+	padding: 10px;
+	display: inline-block;
+	border-radius: .33em;
+}
+#profileColumns .customButton, #profileColumns .customButton a{
+	margin:10px 0;
+	padding:10px;
+	max-width:250px !important;
+	font-size:1.1em !important;
+}
+
+/* Hides the "Department Name" field for LibAnswers that has an unhelpful and unchangeable title */
+.s-lch-profile-name{display:none;}
+.s-lch-autoload-head{font-size:2em;}
+
+/* Hides the shadow around the LibAnswers chat widget button */
+.s-lch-widget-float-btn{box-shadow:none !important;}
+
+/* USER-APPLIED STYLES FOR CUSTOM CONTENT */
+
+blockquote {
+
+}
+
+code {
+  display: block;
+  padding:5px 20px;
+}
+
+#c {
+    float:right;
+    padding: 15px;
+    margin:10px;
+    width: 40%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.box-in-box {
+	float:right;
+	width:40%;
+	padding: 10px;
+	margin:5px 0 5px 15px;
+}
+
+
+/* use this class for long URLs that break the boxes */
+.dont-break-out {
+	overflow-wrap: break-word; 
+	word-wrap: break-word; 
+	word-break: break-all; 
+	-ms-word-break: break-all; 
+	word-break: break-word;
+}
+/*
+     FILE ARCHIVED ON 20:47:19 Jun 17, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:07:18 Aug 14, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.879
+  exclusion.robots: 0.027
+  exclusion.robots.policy: 0.01
+  esindex: 0.022
+  cdx.remote: 2869.079
+  LoadShardBlock: 248.338 (3)
+  PetaboxLoader3.datanode: 150.257 (5)
+  PetaboxLoader3.resolve: 308.579 (3)
+  load_resource: 230.509 (2)
+*/
