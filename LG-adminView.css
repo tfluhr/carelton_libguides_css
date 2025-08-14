@@ -1,0 +1,66 @@
+/* put the the librarian editing view mostly back the way it was */
+
+
+#s-lg-add-box-content, #s-lg-add-box-content,.ui-dialog, #s-lg-content-edit-lt-col, #s-lg-guide-header-attributes, #s-lg-guide-header-subjects, #s-lg-guide-header-tags, .select2-drop, #s-lg-add-box-content, .ui-dialog {
+	font-size:12px;
+	line-height:1.5;
+}
+#s-lg-admin-command-bar, #s-lg-admin-command-bar a, #s-lg-admin-command-bar li, #s-lib-app-anchor a {
+	font-family: Arial,Helvetica,Verdana;
+	font-size: 12px;
+	line-height: 1.75;
+	max-height:35px;
+}
+.s-lib-app-dropdown a:not(#s-lib-app-anchor) {
+	font-weight: 400 !important;
+}
+.s-lib-cmd-bar {
+	margin-top:-6px;
+}
+cmd-bar .container > .navbar-header {
+	margin:-6 0 0 0 !important;
+}
+#s-lg-guide-header-attributes {
+	padding-top:25px;
+}
+#s-lg-guide-header-tags {
+	margin-bottom:10px;
+}
+button.ui-dialog-titlebar-close i {
+	top:-5;
+}
+.s-lg-guide-label {
+	padding: 0 4px;
+}
+.s-lg-guide-admin-content .dropdown-menu > li > a {
+	padding-left:30px;
+}
+.s-lg-edit-link {
+	position: absolute;
+	z-index:6;
+}
+#s-lg-guide-publishing-status {
+	margin-top:-5px;
+}
+
+
+/*
+     FILE ARCHIVED ON 20:47:19 Jun 17, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:40:44 Aug 14, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.58
+  exclusion.robots: 0.03
+  exclusion.robots.policy: 0.018
+  esindex: 0.01
+  cdx.remote: 923.223
+  LoadShardBlock: 719.469 (3)
+  PetaboxLoader3.datanode: 458.334 (5)
+  PetaboxLoader3.resolve: 574.158 (3)
+  load_resource: 428.529 (2)
+*/
