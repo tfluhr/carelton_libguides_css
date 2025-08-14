@@ -1,0 +1,261 @@
+/* Use this stylesheet for font, color, border, and background image styling. Use the "Structure" stylesheet for everything else */
+
+/* colors
+Dark Blue: #3676B3
+Grey: #E6E6E6
+
+Dark Green: #606F2B
+Light Green: #EEF1EA
+
+Header Brown: #894A23
+ */
+ 
+/*set default text styles */
+body {
+	font-family:Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif; 
+	font-size:1.7em !important;    
+	line-height:1.5;
+	font-weight:400;
+}
+#gouldHeader { /*style fully in this stylesheet*/
+	background:#fcefce;
+	border-bottom:none;
+	border-top:none;
+}
+/* style the header */
+#bcBackground, .breadcrumb {
+	background-color: #eef1e9 !important;
+}
+#s-lib-bc {
+	margin-left:-15px;
+}
+
+#s-lib-bc-list a {
+	font-family:Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:300 !important;
+	font-size:1.6em !important;
+	color:#894A23;
+}
+#gouldHeader h1 a {
+    font-family: Garamond, "Hoefler Text", Palatino, "Palatino Linotype", "Times New Roman", serif;
+    font-weight: 300;
+    font-size:2em;
+    line-height: 1;
+    text-decoration: none;
+    color: #894A23;
+}
+
+#gouldHeader h2 a {
+	font-family: Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #894A23;
+	font-weight:200;
+	font-size:1.3em !important;
+	text-decoration: none;
+}
+
+#s-lg-col-0 .s-lib-box, #s-lg-col-0 .s-lib-box-title {
+	background:#EFF1EA;
+}
+#custom-info-boxes .s-lib-box-container {
+	margin-top: 20px;
+	border:2px solid #EFF1EA;
+}
+/* style the guide title area */
+#s-lg-guide-name {
+	font-size:2.5em !important;
+}
+#s-lg-guide-desc-container {
+}
+/* style breadcrumb nav */
+#s-lib-bc .breadcrumb a {
+	font-size:1.3em;
+	font-weight:600;
+}
+/* style box titles */
+.s-lib-box-title {
+	font-size:1.7em !important;
+	/*color normally set in libguides admin area*/
+}
+/* set defaults for links */
+a:not(.ui-dialog), .ui-widget-content a:not(.ui-dialog), s-lg-link-list a, s-lg-link-list-10 a, s-lib-box-content a, .s-lg-book-title a, s-lg-az-result-title a {
+	font-family:Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #0b5091; 
+	font-weight: 500;
+} 
+/* style navigation items - includes header of tabbed boxes */
+#s-lg-tabs-container .nav a, .ui-tabs-nav a {
+	font-weight:normal !important;
+	font-size:0.9em;
+}
+.s-lg-tabs-side .s-lg-boxnav a, .s-lg-subtab-ul a {
+	color: #894A23 !important;
+}
+ 
+/* style the header area of tabbed boxes */
+.tab-content {
+	border-top: 2px solid #ddd;
+}
+
+.nav-tabs {
+	border-bottom:none;
+}
+
+.nav-tabs > li > a {
+	background-color: #EFF1EA;
+	border: 1px solid #ddd;
+	border-radius: 4px 4px 0 0;
+	border-bottom-color:transparent;
+	margin-right:2px;
+}
+
+
+/* Style headings */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .s-lib-public-side-header h2 {
+	font-family: "calibri light", sans-serif;
+	line-height: 1.1 !important;
+	border-bottom:none;
+}
+h1, .h1, h2, .h2, .s-lib-public-side-header h2 {
+	color:#894A23;
+	font-weight:300 !important;
+}
+.s-lib-public-side-header h2 {
+	font-size:1.4em;
+	padding-top:15px;
+}
+h3, .h3 {
+
+}
+
+h4, .h4 {
+	font-weight:600;
+}
+h5, .h5, h6, .h6 {
+	font-style:italic !important;
+}
+
+/* Style the A-Z list */
+
+#s-lg-az-results .s-lg-az-result-title {
+	font-size: 1em !important;
+    line-height: 1.5;
+}
+.s-lg-az-result-description {
+	font-family:Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif; 
+	font-size:1em !important;    
+	line-height:1.5;
+	font-weight:400;
+}
+.label-primary, .s-lg-az-result-badge-new {
+	background-color: #f3b61d;
+	font-weight:normal;
+}
+.s-lg-az-result-keywords {
+	font-size:12px;
+	padding-bottom:5px;
+}
+/* style the librarian profile boxes */
+.s-lib-profile-div, .s-lib-profile-center, .s-lib-profile-email {
+	font-family:"calibri light", sans-serif;
+	text-align:left;
+}
+.s-lib-profile-name {
+	font-size:1.5em;
+	font-weight:300;
+} 
+.s-lib-profile-image, .s-lib-profile-widget {
+	text-align:left;
+}
+/* style book lists */
+.s-lg-book-prop-callno {
+	font-style: italic;
+}
+/* style the footer area */
+#customFooter {
+	background-color:#eef1e9;
+}
+#s-lib-footer-public {
+	background-color:#eef1e9;
+	border-bottom:none;
+}
+/* styling LibCal buttons for profiles */
+
+.customButton, .customButton a, .label-info {
+	background-color: #f3b61d;
+	border: none;
+	color: #302303 !important;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17pt;
+	line-height:1.1;
+	font-weight:300 !important;
+}
+.customButton:hover, .button:focus, .label-info:hover, .label-info:focus {
+	background-color: #f7d06c;
+	text-decoration: none;
+	border:none;
+}
+
+/*Style Subject Pages */
+.s-lib-box {
+	border:none;
+}
+.s-lg-db-panel-title {
+	font-weight:normal;
+}
+.s-lib-box-std .s-lib-box-title {
+	border:none;
+	background-image:none;
+}
+.s-lib-box {
+	box-shadow:none;
+}
+/* Style Search Widget */
+#s-lg-embedded-search-widget-1562204552129 .s-lg-form-control, #s-lg-srch-input-q  {
+	font-size:1em !important;
+	font-weight:300;
+	line-height:1.5em;
+}
+
+/* USER-APPLIED STYLES FOR CUSTOM CONTENT */
+
+blockquote {
+	font-size: 16px
+}
+code {
+  background:none;
+  color:black;
+  font-size:1em;
+  line-height: 1.8;
+  font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
+.box-in-box {
+    background-color: #EFF1EA;
+}
+/*style nav background colors - normally set in the admin area of libguides */
+#s-lg-tabs-container .nav-pills > .active > a, #s-lg-tabs-container .nav-tabs > .active > a {
+	background:#f3b61d;
+}
+#s-lg-tabs-container .nav-pills > li > a, #s-lg-tabs-container .nav-tabs > li > a {
+	background:#F7D06C;
+}
+/*
+     FILE ARCHIVED ON 20:47:19 Jun 17, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:33:36 Aug 14, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.465
+  exclusion.robots: 0.016
+  exclusion.robots.policy: 0.007
+  esindex: 0.01
+  cdx.remote: 6101.981
+  LoadShardBlock: 99.36 (3)
+  PetaboxLoader3.datanode: 83.53 (5)
+  PetaboxLoader3.resolve: 146.492 (3)
+  load_resource: 144.192 (2)
+*/
