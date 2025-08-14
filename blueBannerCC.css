@@ -1,0 +1,267 @@
+#s-lg-public-skiplink { /*added to reduce interference with carleton banner*/
+	background:#0b5091;
+	border:#0b5091;
+}
+#carletonBanner * { /*added to reverse the libguides overriding style that was hiding the search icon*/
+	-webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+@font-face{
+	font-family:'bb';
+	src:url(data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAXMAAsAAAAABYAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgKGL/hGNtYXAAAAFoAAAAXAAAAFzpPiZuZ2FzcAAAAcQAAAAIAAAACAAAABBnbHlmAAABzAAAAeQAAAHk5Qm9OmhlYWQAAAOwAAAANgAAADYGBnJGaGhlYQAAA+gAAAAkAAAAJAPiAelobXR4AAAEDAAAACAAAAAgCvoABWxvY2EAAAQsAAAAEgAAABIBgADCbWF4cAAABEAAAAAgAAAAIAALAFduYW1lAAAEYAAAAUoAAAFKIAmJsnBvc3QAAAWsAAAAIAAAACAAAwAAAAMBzAGQAAUAAAFMAWYAAABHAUwBZgAAAPUAGQCEAAAAAAAAAAAAAAAAAAAAARAAIAAAAAAAAAAAAAAAAAAAQAAA6QIB4P/gACAB4AAgAAAAAQAAAAAAAAAAAAAAIAAAAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEAEAAAAAMAAgAAgAEAAEAICW86QL//f//AAAAAAAgJbzpAP/9//8AAf/j2kgXBQADAAEAAAAAAAAAAAAAAAAAAQAB//8ADwABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAYAIAAWAAAgAAJQEhAQABAP4AYAEAAAAAAgAE/+AB8wHbABgAJQAAJSc+ATU0LgIjIg4CFRQeAjMyNjcXNyU0NjMyFhUUBiMiJjUB830PEiA2SioqSTcfHzdKKRoxFoBF/lJQODlQUDk4UCV9GDgfKkk3ICA3SSoqSTcgDQyARew5UFA5OVBQOQAAAAABAAAAAAIAAbAAEAAAJSc1IxUnARUzFTM1MxUzNTMCAGBAYP8AQKBAoECwYJBQYP8AEKBgYKAAAAEAAf/hAf8B3wBUAAAlOAExJzc4ATE+ATc2Ji8BLgEHDgEHOAExByc4ATEuAScmBg8BDgEXHgEXOAExFwc4ATEOAQcGFh8BHgE3PgE3OAExNxc4ATEeARcWNj8BPgEnLgEnAfubmwIBAQICBEkDCgQCAgKbmwICAgQKA0kEAgIBAQKbmwIBAQICBEkDCgQCAgKbmwICAgQKA0kEAgIBAQJFm5sCAgIECgNJBAICAQECm5sCAQECAgRJAwoEAgICm5sCAgIECgNJBAICAQECm5sCAQECAgRJAwoEAgICAAAAAQAAAAEAAOPsT59fDzz1AAsCAAAAAADSc5jFAAAAANJzmMUAAP/gAgAB3wAAAAgAAgAAAAAAAAABAAAB4P/gAAACAAAAAAACAAABAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAEAAAACAAAAAfoABAIAAAACAAABAAAAAAAKABQAHgAsAGYAggDyAAAAAQAAAAgAVQACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA4ArgABAAAAAAABAAIAAAABAAAAAAACAAcAMwABAAAAAAADAAIAJwABAAAAAAAEAAIASAABAAAAAAAFAAsABgABAAAAAAAGAAIALQABAAAAAAAKABoATgADAAEECQABAAQAAgADAAEECQACAA4AOgADAAEECQADAAQAKQADAAEECQAEAAQASgADAAEECQAFABYAEQADAAEECQAGAAQALwADAAEECQAKADQAaGJiAGIAYlZlcnNpb24gMS4wAFYAZQByAHMAaQBvAG4AIAAxAC4AMGJiAGIAYmJiAGIAYlJlZ3VsYXIAUgBlAGcAdQBsAGEAcmJiAGIAYkZvbnQgZ2VuZXJhdGVkIGJ5IEljb01vb24uAEYAbwBuAHQAIABnAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4ALgAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=) format('woff');
+	font-weight:normal;
+	font-style:normal;
+}
+body{
+	margin:0;
+	padding:0;
+}
+#carletonBanner{
+	font-family:"ProximaNova",Gotham,"Helvetica Neue",Arial,Helvetica,sans-serif !important; /*edited*/
+	line-height:1.4;
+	background:#0b5091;
+	background-color: rgb(11, 80, 145);
+	color:#c2d3e4;
+	color:#fff;
+	position:relative;
+	max-height:53px; /*added*/
+}
+#carletonBanner>.overlayBorder{
+	position:absolute;
+	width:100%;
+	bottom:-1px;
+	height:1px;
+	background:rgba(255,255,255,0.25);
+}
+#carletonBanner ul{
+	list-style:none;
+	margin:0;padding:0;
+}
+#carletonBanner a{
+	font-family:"ProximaNova",Gotham,"Helvetica Neue",Arial,Helvetica,sans-serif !important; /*edited*/
+	text-decoration:none;
+	color:#fff;
+	font-size:1.6em; /*edited*/
+	font-weight:normal !important; /*edited*/
+}
+#carletonBanner a img{
+	border:0;
+}
+#carletonBanner form{
+	margin:0;
+}
+#carletonBanner>.persistent{
+	padding:10px 20px;
+}
+#carletonBanner>.persistent:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+#carletonBanner .logo{
+	float:left;
+	margin:2px 10px 0 0;
+}
+#carletonBanner .home{
+	margin-right:2px;
+	float:left;
+}
+#carletonBanner .home span.icon{
+	float:left;
+	background:#306aa2;
+	padding:5px 10px;
+	min-height:1.4em;
+	display:inline-block;
+}
+#carletonBanner .home span.icon>span:before{
+	content:"\e901";
+	font-family:'bb' !important;
+	speak:none;
+	font-style:normal;
+	font-weight:normal;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-moz-osx-font-smoothing:grayscale;
+	text-decoration:none;
+	color:#c2d3e4
+}
+#carletonBanner .home span.icon>em{
+	position:absolute;
+	left:-9999px;
+}
+#carletonBanner .home:hover span.icon,#carletonBanner .home:active span.icon,#carletonBanner .home:focus span.icon{
+	background:#487cad;
+}
+#carletonBanner .home:hover span.icon>span:before,#carletonBanner .home:active span.icon>span:before,#carletonBanner .home:focus span.icon>span:before{color:#fff}#carletonBanner .menu{float:left}#carletonBanner .menu>li{
+	float:left;
+	margin-right:2px;
+}
+#carletonBanner .menu { /*added*/
+	margin-top:-6px;
+}
+#carletonBanner .menu>li>a{
+	display:block;
+	background:#306aa2;
+	padding:5px 10px;
+	min-height:1.4em
+}
+#carletonBanner .menu>li>a:hover,#carletonBanner .menu>li>a:active,#carletonBanner .menu>li>a:focus{
+	background:#487cad;
+}
+#carletonBanner .menu>li.bbFor>a>em{
+	font-style:normal;
+}
+#carletonBanner .search{
+	float:right;
+}
+#carletonBanner .search #searchToggle,#carletonBanner .search input[type="image"]{
+	padding:10px 9px 8px;
+	background:#306aa2;
+	display:inline-block;
+	line-height:.5;
+	color:#fff;
+	border:0;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	border-radius:0;
+}
+#carletonBanner .search #searchToggle:hover,#carletonBanner .search input[type="image"]:hover,#carletonBanner .search #searchToggle:active,#carletonBanner .search input[type="image"]:active,#carletonBanner .search #searchToggle:focus,#carletonBanner .search input[type="image"]:focus{
+	background:#487cad;
+}
+#carletonBanner .search #searchToggle{
+	display:none;
+}
+#carletonBanner .search form{
+	display:inline-block;
+}
+#carletonBanner .search input[type="image"],#carletonBanner .search #bannerSearch{
+	vertical-align:middle;
+}
+#carletonBanner .search input[type="image"]::moz-focus-inner{
+	border:0;
+	padding:0;
+}
+#carletonBanner .search .dialog{
+	position:absolute;
+	left:-9999px;
+}
+#carletonBanner .search #bannerSearchForm{
+	position:relative;
+}
+#carletonBanner .search #bannerSearch{
+	padding:7px;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	height:32px;
+	width:14.5em;
+	background:#aec5db;
+	border:0;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	border-radius:0;
+	font-size:12px;
+}
+#carletonBanner input { /*added*/
+	color:black;
+}
+
+#carletonBanner label { /*added*/
+	font-size:1.6em;
+	font-weight:normal;
+}
+#carletonBanner .search #bannerSearch:focus{
+	background:#cedce9;
+}
+#carletonBanner .search #bannerSearch::-webkit-input-placeholder{
+	color:#3b434c;
+}
+#carletonBanner .search #bannerSearch:-moz-placeholder{
+	color:#3b434c;
+	opacity:1;
+}
+#carletonBanner .search #bannerSearch::-moz-placeholder{
+	color:#3b434c;
+	opacity:1;
+}
+#carletonBanner .search #bannerSearch:-ms-input-placeholder{
+	color:#3b434c;
+}
+#carletonBanner .search #bannerSearch::-ms-input-placeholder{
+	color:#3b434c;
+}
+#carletonBanner .search #bannerSearch::placeholder{
+	color:#3b434c;
+}
+#carletonBanner .search #bannerSearch:focus::-webkit-input-placeholder{
+	color:#58646f;
+}
+#carletonBanner .search #bannerSearch:focus:-moz-placeholder{
+	color:#58646f;
+	opacity:1;
+}
+#carletonBanner .search #bannerSearch:focus::-moz-placeholder{
+	color:#58646f;
+	opacity:1;
+}
+#carletonBanner .search #bannerSearch:focus:-ms-input-placeholder{
+	color:#58646f;
+}
+#carletonBanner .search #bannerSearch:focus::-ms-input-placeholder{
+	color:#58646f;
+}
+#carletonBanner .search #bannerSearch:focus::placeholder{
+	color:#58646f;
+}
+@media all and (max-width:650px){
+	#carletonBanner .menu{
+		position:absolute;
+		left:-9999px;
+	}
+}
+@media all and (max-width:800px){
+	#carletonBanner .search #searchToggle{
+		display:inline-block;
+	}
+	#carletonBanner .search form{
+		display:none;
+	}
+}
+@media all and (min-width:999px){
+	#carletonBanner .search>.alternates{
+		display:block !important;
+		float:left;
+		margin-right:10px;
+	}
+	#carletonBanner .search>.alternates>a{
+		background:#23629c;
+		display:inline-block;
+		padding:5px 10px;
+		margin-right:2px;
+		color:#dae5ef;
+	}
+	#carletonBanner .search>.alternates>a:hover,#carletonBanner .search>.alternates>a:active,#carletonBanner .search>.alternates>a:focus{
+		background:#3c73a7;color:#fff;
+	}
+}
+/*
+     FILE ARCHIVED ON 20:47:19 Jun 17, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:27:11 Aug 14, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.442
+  exclusion.robots: 0.016
+  exclusion.robots.policy: 0.007
+  esindex: 0.01
+  cdx.remote: 2796.239
+  LoadShardBlock: 588.575 (3)
+  PetaboxLoader3.resolve: 905.627 (4)
+  PetaboxLoader3.datanode: 362.669 (5)
+  load_resource: 750.763 (2)
+*/
